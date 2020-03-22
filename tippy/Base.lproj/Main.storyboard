@@ -72,6 +72,9 @@
                                     <segment title="18%"/>
                                     <segment title="20%"/>
                                 </segments>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="wP6-Qg-byX"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -84,6 +87,7 @@
                     <navigationItem key="navigationItem" title="Tip Calculator" id="hFr-bs-4rQ"/>
                     <connections>
                         <outlet property="billField" destination="irB-Cx-Hb0" id="tUv-0K-PTo"/>
+                        <outlet property="tipControl" destination="Laq-Uo-1kJ" id="BZh-Qu-jnO"/>
                         <outlet property="tipLabel" destination="oFq-Il-pVs" id="MRf-Ep-m59"/>
                         <outlet property="totalLabel" destination="Jjr-G0-tYb" id="SHi-nM-Rz2"/>
                     </connections>
